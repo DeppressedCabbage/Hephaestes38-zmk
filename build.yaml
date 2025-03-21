@@ -18,3 +18,6 @@
 #     artifact-name: corne_left_with_studio
 #
 ---
+include: 
+  - board: nice_nano
+    shield: Hephaestes38
