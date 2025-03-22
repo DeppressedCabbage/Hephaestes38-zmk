@@ -2,23 +2,46 @@
 #include <dt-bindings/zmk/keys.h>
 
 /{
+    combos {
+        compatible = "zmk,combos";
+        combo_Nav_Layer {
+            timout-ms = <50>;
+            key-positions = <14 35>;
+            layers = <0 2>
+            bindings = <&to 1>;
+        }
+        combo_NUM_Layer {
+            timout-ms = <50>;
+            key-positions = <19 38>;
+            layers = <0 1>
+            bindings = <&to 2>;
+        }
+    }
     keymap {
         compatible = "zmk,keymap";
         default_layer { //layer 0
             bindings = <
                             &kp F   &kp P   &kp D   &kp L   &kp X       &kp BSPC    &kp U           &kp O           &kp Y       &kp B
                 &kp TAB     &kp S   &kp N   &kp T   &kp H   &kp K       &kp COMMA   &kp A           &kp E           &kp I       &kp C   &kp Q
-                &kp LCTRL   &kp V   &kp W   &kp G   &kp M   &kp J       &kp MINUS   &mt DOT    &kp SQT &kp SEMI     &kp Z   &kp LALT
+                &kp LCTRL   &kp V   &kp W   &kp G   &kp M   &kp J       &kp MINUS   &mt EXCL DOT    &kp SQT         &kp SEMI    &kp Z   &kp LALT
                                                     &kp R  &caps_word    &sk LSHIFT  &kp SPACE
             >;
         };
         Nav_Layer { //layer 2
             bindings = <
                             &none   &none   &none   &none   &none       &kp DEL     &kp PG_UP       &kp UP          &kp PG_UP   &none
-                &trans      &none   &none   &none   &none   &none       &none       &kp LEFT        &kp DOWN        &none       &none
-                &trans      &none   &none   &none   &none   &none       &none       &none           &none           &none       &none
+                &trans      &none   &none   &none   &none   &none       &none       &kp LEFT        &kp DOWN        &none       &none   &none
+                &trans      &none   &none   &none   &none   &none       &none       &none           &none           &none       &none   &none
                                                 &kp LSHIFT  &none       &to 0       &none
             >;
         };
+        Number_Layer { //layer 3
+            bindings = <
+                            &kp AT      &kp LBKT    &kp RBKT    &kp CARET   &kp BSPC    &kp N7          &kp N8      &kp N9      &kp EQUAL
+                &trans      &kp EXCL    &kp QMARK   &kp LPAR    &kp RPAR    &kp PIPE    &kp STAR        &kp N4      &kp N5      &kp N6  &kp MINUS   &kp ENTER
+                &trans      &kp LT      &kp GT      &kp LBRC    &kp RBRC    &kp TILDE   &kp N0          &kp N1      &kp N2      &kp N3  &kp FSLH    &trans
+                                                                &kp LSHIFT  &kp DOT     &to 0           &trans
+            >;
+        }; 
     };
 };
