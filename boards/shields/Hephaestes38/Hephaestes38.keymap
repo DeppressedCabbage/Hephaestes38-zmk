@@ -9,14 +9,14 @@
             key-positions = <14 35>;
             layers = <0 2>;
             bindings = <&tog 1>;
-        }
+        };
         combo_NUM_Layer {
             timout-ms = <50>;
             key-positions = <19 38>;
             layers = <0 1>;
             bindings = <&tog 2>;
-        }
-    }
+        };
+    };
     keymap {
         compatible = "zmk,keymap";
         default_layer { //layer 0
