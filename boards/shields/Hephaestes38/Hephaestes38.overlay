@@ -46,7 +46,7 @@
     physical_layout0: physical_layout_0 { // First physical layout, use different naming for other layouts
         compatible = "zmk,physical-layout";
         display-name = "Default Layout";
-        kscan = <&kscan0>; // Label of the kscan node, optional if all layouts use the same
+        #kscan = <&kscan0>; // Label of the kscan node, optional if all layouts use the same
         transform = <&default_transform>; // Label of the matrix transform for this layout
     };
 };
