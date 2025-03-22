@@ -1,7 +1,7 @@
 if SHIELD_HEPHAESTES38
 
 # Name must be less than 16 characters long!
-config ZMK_HEPHAESTES38
+config ZMK_KEYBOARD_Hephaestes38
     default "Hephaestes38"
 
 endif
