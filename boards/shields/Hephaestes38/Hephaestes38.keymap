@@ -16,6 +16,18 @@
             //layers = <0 1>;
             bindings = <&tog 2>;
         };
+        combo_ESC {
+            timeout-ms = <50>;
+            key-positions = <14 15>;
+            //layers = <0 1>;
+            bindings = <&kp ESC>;
+        };
+        combo_Enter {
+            timeout-ms = <50>;
+            key-positions = <18 19 20>;
+            //layers = <0 1>;
+            bindings = <&tog 2>;
+        };
     };
     keymap {
         compatible = "zmk,keymap";
