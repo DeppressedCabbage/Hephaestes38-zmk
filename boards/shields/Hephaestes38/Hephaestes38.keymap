@@ -12,4 +12,5 @@
                                                     &kp R  &kp CAPS    &kp LSHIFT  &kp SPACE
             >;
         };
+    };
 };
