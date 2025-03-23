@@ -26,7 +26,7 @@
         };
         combo_Windows {
             timeout-ms = <50>;
-            key-positions = <13 15>;
+            key-positions = <12 14>;
             bindings = <&kp LEFT_GUI>;
         };
         combo_Delete {
