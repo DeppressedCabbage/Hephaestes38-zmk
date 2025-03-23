@@ -7,26 +7,32 @@
         combo_Nav_Layer {
             timeout-ms = <50>;
             key-positions = <13 34>;
-            //layers = <0 2>;
             bindings = <&tog 1>;
         };
         combo_NUM_Layer {
             timeout-ms = <50>;
             key-positions = <18 37>;
-            //layers = <0 1>;
             bindings = <&tog 2>;
         };
         combo_ESC {
             timeout-ms = <50>;
             key-positions = <13 14>;
-            //layers = <0 1>;
             bindings = <&kp ESC>;
         };
         combo_Enter {
             timeout-ms = <50>;
             key-positions = <17 18 19>;
-            //layers = <0 1>;
             bindings = <&kp ENTER>;
+        };
+        combo_Windows {
+            timeout-ms = <50>;
+            key-positions = <13 15>;
+            bindings = <&kp LEFT_GUI>;
+        };
+        combo_Delete {
+            timeout-ms = <50>;
+            key-positions = <3 4>;
+            bindings = <&kp DEL>;
         };
     };
     keymap {
