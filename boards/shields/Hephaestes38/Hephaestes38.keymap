@@ -1,6 +1,11 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
+&sk {
+    release-after-ms = <500>;
+    quick-release;
+};
+
 /{
     combos {
         compatible = "zmk,combos";
@@ -35,11 +40,6 @@
             bindings = <&kp DEL>;
         };
     };
-
-&sk {
-    release-after-ms = <500>;
-    quick-release;
-};
 
     keymap {
         compatible = "zmk,keymap";
