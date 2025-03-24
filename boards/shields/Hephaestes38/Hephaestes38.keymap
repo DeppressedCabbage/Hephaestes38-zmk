@@ -31,10 +31,16 @@
         };
         combo_Delete {
             timeout-ms = <50>;
-            key-positions = <3 4>;
+            key-positions = <2 3>;
             bindings = <&kp DEL>;
         };
     };
+
+&sk {
+    release-after-ms = <500>;
+    quick-release;
+};
+
     keymap {
         compatible = "zmk,keymap";
         default_layer { //layer 0
