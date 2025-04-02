@@ -163,8 +163,10 @@ pcbs:
         where: 
           - ref.aggregate.parts: [matrix_inner_home, mirror_matrix_inner_home]
             shift: [0, -0.55U]
-          params: 
-              
+        params: 
+          side: F
+          reversible: false
+
       mcu:
         what: ceoloide/mcu_nice_nano
         where:
@@ -173,3 +175,6 @@ pcbs:
         params:
           reversible: false
           only_required_jumpers: true
+          P1_label: CS
+          P2_label: SCL
+          P3_label: MOSI
