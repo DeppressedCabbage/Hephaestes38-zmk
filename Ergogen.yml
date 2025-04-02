@@ -13,7 +13,7 @@ points:
         pinky.key.stagger: -0.3cx
         pinky.key.splay: -3
         pinky.key.column_net: P19
-        ring.key.stagger: 0.75cx
+        ring.key.stagger: 0.6cx
         ring.key.splay: -5
         ring.key.column_net: P18
         middle.key.stagger: 0.25cx
@@ -109,7 +109,7 @@ outlines:
     - operation: subtract
       name: rawcontroller
 pcbs:
-  your_name_here:
+  Hepheaestes38:
     outlines: 
       main: 
         outline: combo
@@ -175,6 +175,6 @@ pcbs:
         params:
           reversible: false
           only_required_jumpers: true
-          P1_label: CS
-          P2_label: SCL
-          P3_label: MOSI
+          P1: CS
+          P2: SCK
+          P3: MOSI
