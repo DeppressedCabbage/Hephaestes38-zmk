@@ -158,6 +158,13 @@ pcbs:
         params: 
           from: pos
           to: RAW
+      display: 
+        what: ceoloide/display_nice_view
+        where: 
+          - ref.aggregate.parts: [matrix_inner_home, mirror_matrix_inner_home]
+            shift: [0, -0.55U]
+          params: 
+              
       mcu:
         what: ceoloide/mcu_nice_nano
         where:
