@@ -27,13 +27,13 @@ points:
       rows:
         bottom:
           padding: cy
-          row_net: P9
-          mirror.row_net: P6
+          row_net: P8
+          mirror.row_net: P21
         home.padding: cy
-        home.row_net: P8
+        home.row_net: P7
         home.mirror.row_net: P5
         top.padding: cy
-        top.row_net: P7
+        top.row_net: P6
         top.mirror.row_net: P4
     thumb:
       anchor:
@@ -48,7 +48,7 @@ points:
           key.splay: -15
           key.origin: [-0.5U, -0.5U]
           key.column_net: P16
-      rows.thumbrow.row_net: P3
+      rows.thumbrow.row_net: P9
       rows.thumbrow.mirror.row_net: P10
 points.zones.matrix.mirror:
   ref: matrix_inner_home
