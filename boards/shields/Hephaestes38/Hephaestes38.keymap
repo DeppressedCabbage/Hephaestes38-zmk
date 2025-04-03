@@ -1,6 +1,11 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
+&sk {
+    release-after-ms = <500>;
+    quick-release;
+};
+
 /{
     combos {
         compatible = "zmk,combos";
@@ -31,10 +36,11 @@
         };
         combo_Delete {
             timeout-ms = <50>;
-            key-positions = <3 4>;
+            key-positions = <2 3>;
             bindings = <&kp DEL>;
         };
     };
+
     keymap {
         compatible = "zmk,keymap";
         default_layer { //layer 0
