@@ -5,6 +5,7 @@
 &ext_power {
     compatible = "zmk,behavior-ext-power";
     EXT_POWER_ON_CMD;
+    display-name = "External Power";
 };
 
 &sk {
