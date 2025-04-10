@@ -3,6 +3,7 @@
 #include <dt-bindings/zmk/ext_power.h>
 
 &ext_power {
+    compatible = "zmk,behavior-ext-power"
     EXT_POWER_ON_CMD;
 };
 
