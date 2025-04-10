@@ -1,5 +1,8 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/ext_power.h>
+
+&ext_power EP_ON
 
 &sk {
     release-after-ms = <500>;
