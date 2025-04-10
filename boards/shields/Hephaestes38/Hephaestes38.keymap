@@ -9,7 +9,7 @@
     quick-release;
 };
 
-/{
+{
     combos {
         compatible = "zmk,combos";
         combo_Nav_Layer {
