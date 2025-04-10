@@ -3,7 +3,7 @@
 #include <dt-bindings/zmk/ext_power.h>
 
 &ext_power {
-    EXT_POWER_ON_CMD
+    EXT_POWER_ON_CMD;
 };
 
 &sk {
