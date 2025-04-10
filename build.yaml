@@ -20,4 +20,4 @@
 ---
 include: 
   - board: nice_nano
-    shield: Hephaestes38
+    shield: Hephaestes38 nice_view_adapter nice_view
