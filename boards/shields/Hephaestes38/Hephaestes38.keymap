@@ -2,12 +2,6 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/ext_power.h>
 
-&ext_power {
-    compatible = "zmk,behavior-ext-power";
-    EXT_POWER_ON_CMD;
-    //display-name = "External Power";
-};
-
 &sk {
     release-after-ms = <500>;
     quick-release;
@@ -60,7 +54,7 @@
         };
         Nav_Layer { //layer 2
             bindings = <
-                            &none   &none   &none   &none   &none       &kp DEL     &kp PG_UP       &kp UP          &kp PG_DN   &none
+                            &ext_power EP_ON   &none   &none   &none   &none       &kp DEL     &kp PG_UP       &kp UP          &kp PG_DN   &none
                 &trans      &none   &none   &none   &none   &none       &none       &kp LEFT        &kp DOWN        &kp RIGHT   &none   &none
                 &trans      &none   &none   &none   &none   &none       &none       &none           &none           &none       &none   &none
                                                 &kp LSHIFT  &none       &to 0       &none
