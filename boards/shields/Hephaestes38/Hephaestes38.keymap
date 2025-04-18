@@ -55,8 +55,8 @@
         Nav_Layer { //layer 2
             bindings = <
                             &ext_power EP_ON   &none   &none   &none   &none       &kp DEL     &kp PG_UP       &kp UP          &kp PG_DN   &none
-                &trans      &none   &none   &none   &none   &none       &none       &kp LEFT        &kp DOWN        &kp RIGHT   &none   &none
-                &trans      &none   &none   &none   &none   &none       &none       &none           &none           &none       &none   &none
+                &trans      &ext_power EP_OFF   &none   &none   &none   &none       &none       &kp LEFT        &kp DOWN        &kp RIGHT   &none   &none
+                &trans      &ext_power EP_TOG   &none   &none   &none   &none       &none       &none           &none           &none       &none   &none
                                                 &kp LSHIFT  &none       &to 0       &none
             >;
         };
