@@ -55,9 +55,9 @@
         };
         Nav_Layer { //layer 2
             bindings = <
-                            &ext_power EP_ON   &BT_SEL 0  &BT_SEL 3    &none   &none       &kp DEL     &kp PG_UP       &kp UP          &kp PG_DN   &none
-                &trans      &ext_power EP_OFF   &BT_SEL 1   &BT_SEL 4  &none   &none       &none       &kp LEFT        &kp DOWN        &kp RIGHT   &none   &none
-                &trans      &ext_power EP_TOG   &BT_SEL 2   &none      &none   &none       &none       &none           &none           &none       &none   &none
+                            &ext_power EP_ON   &bt BT_SEL 0  &bt BT_SEL 3    &none   &none       &kp DEL     &kp PG_UP       &kp UP          &kp PG_DN   &none
+                &trans      &ext_power EP_OFF   &bt BT_SEL 1   &bt BT_SEL 4  &none   &none       &none       &kp LEFT        &kp DOWN        &kp RIGHT   &none   &none
+                &trans      &ext_power EP_TOG   &bt BT_SEL 2   &none      &none   &none       &none       &none           &none           &none       &none   &none
                                                                    &kp LSHIFT  &none       &to 0       &none
             >;
         };
