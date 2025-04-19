@@ -1,6 +1,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/ext_power.h>
+#include <dt-bindings/zmk/bt.h>
 
 &sk {
     release-after-ms = <500>;
@@ -47,17 +48,17 @@
         default_layer { //layer 0
             bindings = <
                             &kp F   &kp P   &kp D   &kp L   &kp X       &kp BSPC    &kp U           &kp O           &kp Y       &kp B
-                &kp TAB     &kp S   &kp N   &kp T   &kp H   &kp K       &kp COMMA   &kp A           &kp E           &kp I       &kp C   &kp Q
+                &kp TAB     &kp S   &kp N   &#include <dt-bindings/zmk/bt.h>kp T   &kp H   &kp K       &kp COMMA   &kp A           &kp E           &kp I       &kp C   &kp Q
                 &kp LCTRL   &kp V   &kp W   &kp G   &kp M   &kp J       &kp MINUS   &mt EXCL DOT    &kp SQT         &kp SEMI    &kp Z   &kp LALT
                                                     &kp R  &caps_word    &sk LSHIFT  &kp SPACE
             >;
         };
         Nav_Layer { //layer 2
             bindings = <
-                            &ext_power EP_ON   &none   &none   &none   &none       &kp DEL     &kp PG_UP       &kp UP          &kp PG_DN   &none
-                &trans      &ext_power EP_OFF   &none   &none   &none   &none       &none       &kp LEFT        &kp DOWN        &kp RIGHT   &none   &none
-                &trans      &ext_power EP_TOG   &none   &none   &none   &none       &none       &none           &none           &none       &none   &none
-                                                &kp LSHIFT  &none       &to 0       &none
+                            &ext_power EP_ON   &BT_SEL 0  &BT_SEL 3    &none   &none       &kp DEL     &kp PG_UP       &kp UP          &kp PG_DN   &none
+                &trans      &ext_power EP_OFF   &BT_SEL 1   &BT_SEL 4  &none   &none       &none       &kp LEFT        &kp DOWN        &kp RIGHT   &none   &none
+                &trans      &ext_power EP_TOG   &BT_SEL 2   &none      &none   &none       &none       &none           &none           &none       &none   &none
+                                                                   &kp LSHIFT  &none       &to 0       &none
             >;
         };
         Number_Layer { //layer 3
