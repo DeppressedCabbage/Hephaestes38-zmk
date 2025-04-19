@@ -48,7 +48,7 @@
         default_layer { //layer 0
             bindings = <
                             &kp F   &kp P   &kp D   &kp L   &kp X       &kp BSPC    &kp U           &kp O           &kp Y       &kp B
-                &kp TAB     &kp S   &kp N   &#include <dt-bindings/zmk/bt.h>kp T   &kp H   &kp K       &kp COMMA   &kp A           &kp E           &kp I       &kp C   &kp Q
+                &kp TAB     &kp S   &kp N   &kp T   &kp H   &kp K       &kp COMMA   &kp A           &kp E           &kp I       &kp C   &kp Q
                 &kp LCTRL   &kp V   &kp W   &kp G   &kp M   &kp J       &kp MINUS   &mt EXCL DOT    &kp SQT         &kp SEMI    &kp Z   &kp LALT
                                                     &kp R  &caps_word    &sk LSHIFT  &kp SPACE
             >;
