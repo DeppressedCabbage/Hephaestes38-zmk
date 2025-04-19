@@ -1,4 +1,10 @@
-#include <dt-bindings/zmk/matrix_transform.h> // Put this with the other includes at the top of your overlay
+/*
+ * Copyright (c) 2022 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+ 
+ #include <dt-bindings/zmk/matrix_transform.h> // Put this with the other includes at the top of your overlay
 
 /{
     chosen {
@@ -57,12 +63,6 @@
         // Other chosen items
     };
 };
-
-/*
- * Copyright (c) 2022 The ZMK Contributors
- *
- * SPDX-License-Identifier: MIT
- */
 
 &pinctrl {
     spi0_default: spi0_default {
