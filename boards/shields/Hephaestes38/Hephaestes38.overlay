@@ -5,7 +5,7 @@
  */
  
  #include <dt-bindings/zmk/matrix_transform.h> // Put this with the other includes at the top of your overlay
- #include <Hephaestes38-layouts.dtsi>
+ #include <C:\Users\User\Hephaestes38-zmk\boards\shields\Hephaestes38\Hephaestes38-layouts.dtsi>
 
 /{
     chosen {
