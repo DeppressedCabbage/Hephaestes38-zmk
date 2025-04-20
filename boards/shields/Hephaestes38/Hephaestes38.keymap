@@ -46,6 +46,7 @@
     keymap {
         compatible = "zmk,keymap";
         default_layer { //Default
+            display-name = "Base";
             bindings = <
                             &kp F   &kp P   &kp D   &kp L   &kp X       &kp BSPC    &kp U           &kp O           &kp Y       &kp B
                 &kp TAB     &kp S   &kp N   &kp T   &kp H   &kp K       &kp COMMA   &kp A           &kp E           &kp I       &kp C   &kp Q
@@ -55,6 +56,7 @@
         };
 
         Nav_Layer { //Nav/BLE
+            display-name = "Nav";
             bindings = <
                             &ext_power EP_ON    &bt BT_SEL 0   &bt BT_SEL 3     &none   &none       &kp DEL     &kp PG_UP       &kp UP          &kp PG_DN   &none
                 &trans      &ext_power EP_OFF   &bt BT_SEL 1   &bt BT_SEL 4     &none   &none       &none       &kp LEFT        &kp DOWN        &kp RIGHT   &none   &none
@@ -64,6 +66,7 @@
         };
 
         Number_Layer { //Num/Sym
+            display-name = "Num/Sym";
             bindings = <
                             &none       &kp AT_SIGN &kp LBKT    &kp RBKT    &kp CARET   &kp BSPC        &kp N7      &kp N8      &kp N9  &kp EQUAL
                 &trans      &kp EXCL    &kp QMARK   &kp LPAR    &kp RPAR    &kp PIPE    &kp STAR        &kp N4      &kp N5      &kp N6  &kp MINUS   &kp ENTER
