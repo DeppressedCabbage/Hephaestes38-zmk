@@ -59,7 +59,7 @@
     vbatt: vbatt {
         compatible = "zmk,battery-nrf-vddh";
     };
-}
+};
 
 &pinctrl {
     spi0_default: spi0_default {
