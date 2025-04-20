@@ -10,5 +10,6 @@ exposes:
 features:
   - keys
   - display
+  - studio
 siblings:
   - Hephaestes38
