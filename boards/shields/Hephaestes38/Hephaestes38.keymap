@@ -53,6 +53,7 @@
                                                     &kp R  &caps_word    &sk LSHIFT  &kp SPACE
             >;
         };
+
         Nav_Layer { //Nav/BLE
             bindings = <
                             &ext_power EP_ON   &bt BT_SEL 0  &bt BT_SEL 3    &none   &none       &kp DEL     &kp PG_UP       &kp UP          &kp PG_DN   &none
@@ -61,6 +62,7 @@
                                                                    &kp LSHIFT  &none       &to 0       &none
             >;
         };
+
         Number_Layer { //Num/Sym
             bindings = <
                             &none       &kp AT_SIGN &kp LBKT    &kp RBKT    &kp CARET   &kp BSPC        &kp N7      &kp N8      &kp N9  &kp EQUAL
@@ -69,5 +71,16 @@
                                                                 &kp LSHIFT  &kp DOT     &to 0           &trans
             >;
         }; 
+
+        extra1 {
+            status = "reserved";
+        };
+        
+        extra2 {
+            status = "reserved";
+        };
+        extra3 {
+            status = "reserved";
+        };
     };
 };
