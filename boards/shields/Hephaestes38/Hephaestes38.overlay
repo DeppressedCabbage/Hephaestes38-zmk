@@ -5,6 +5,7 @@
  */
  
  #include <dt-bindings/zmk/matrix_transform.h> // Put this with the other includes at the top of your overlay
+ #include <Hephaestes38-layouts.dtsi>
 
 /{
     chosen {
@@ -45,15 +46,6 @@
             RC(2,0)     RC(2,1)     RC(2,2)     RC(2,3)     RC(2,4)     RC(2,5)     RC(6,5)     RC(6,4)     RC(6,3)     RC(6,2)     RC(6,1)     RC(6,0)
                                                             RC(3,4)     RC(3,5)     RC(7,5)     RC(7,4)
         >;
-    };
-};
-
-/ {
-    physical_layout0: physical_layout_0 { // First physical layout, use different naming for other layouts
-        compatible = "zmk,physical-layout";
-        display-name = "Default Layout";
-        //kscan = <default_kscan>;  Label of the kscan node, optional if all layouts use the same
-        transform = <&default_transform>; // Label of the matrix transform for this layout
     };
 };
 
