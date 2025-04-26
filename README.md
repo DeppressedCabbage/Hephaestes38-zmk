@@ -37,7 +37,7 @@ Hepheaestes38 runs ZMK, you can modify and compile you're own firmware by clonin
 *** 
 ### To Do List
 
-- Create Case
+- ✔Create Case
 - Add via's to the pcb to facilitate Case attachement
 - Refine Pcb to allow for diode attachment on both sides, along with turning Diode Footprint around
 - Lower profile?a
