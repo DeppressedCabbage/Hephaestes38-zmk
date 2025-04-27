@@ -1,6 +1,6 @@
 <h1 align="left">Hephaestes38</h1>
 
-Hephaestes38 is a custom, 38 key, low profile, split unibody keyboard. I Intended it to be used with the Hands Down promethium layout, but that's really up to you!
+Hephaestes38 is a custom, 38 key, low profile, split unibody keyboard. I Intended it to be used with the Hands Down promethium layout, but that's really up to you! ZMK studio has also been integrated, so it's super easy to make any changes you wish. I only use 3 Layers, but the firmware has a total of 5 for you to add any you like. 
 
 ****
 ![IMG_1503](https://github.com/user-attachments/assets/a0878bdd-1bca-4a44-87b5-c0b7dde1b5f4)
@@ -35,12 +35,20 @@ Additionally, you'll also need the following
 Hepheaestes38 runs ZMK, you can modify and compile you're own firmware by cloning the repo and maiking any edits you like. 
 
 *** 
+### V1 Case
+
+This is the first version of they keyboard, and I forgot to add mounting holes to the pcb to facilitate Case attachement. I worked around this in a less than elegant way, and if you want to make v1 you would have to do something similar. Pictures are below. 
+![IMG_1521](https://github.com/user-attachments/assets/27e24dec-88bb-4b1c-8f9c-14c25f3f37de)
+
+![IMG_1523](https://github.com/user-attachments/assets/7a209966-5b48-4598-9bb6-3a8b863f0747)
+
+***
 ### To Do List
 
 - ✔Create Case
 - Add via's to the pcb to facilitate Case attachement
 - Refine Pcb to allow for diode attachment on both sides, along with turning Diode Footprint around
-- Lower profile?a
+- Lower profile?
 - ✔ Add zmk Studio support
 
 ***
