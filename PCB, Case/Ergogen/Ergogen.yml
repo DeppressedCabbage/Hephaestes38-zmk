@@ -128,10 +128,11 @@ pcbs:
         what: diode
         where: true
         params: 
-          from: "{{colrow}}"
-          to: "{{row_net}}"
+          from: "{{row_net}}"
+          to: "{{colrow}}"
         adjust: 
           shift: [0, -5]
+          rotate: 180
       reset: 
         what: button
         params: 
