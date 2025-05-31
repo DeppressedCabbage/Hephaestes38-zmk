@@ -109,27 +109,28 @@ outlines:
     - operation: subtract
       name: rawcontroller
 pcbs:
-  Hepheaestes38:
+  Hepheaestes38v2:
     outlines: 
       main: 
         outline: combo
     template: kicad8
     footprints:
       choc_hotswap:
-        what: choc
+        what: ceoloide/switch_choc_v1_v2
         where: true
         params:
-          keycaps: true
-          reverse: false
           hotswap: true
+          reversible: false
+          choc_v2_support: false
           from: "{{column_net}}"
           to: "{{colrow}}"
       diode: 
-        what: diode
+        what: ceoloide/diode_tht_sod123
         where: true
         params: 
           from: "{{row_net}}"
           to: "{{colrow}}"
+          include_tht: false
         adjust: 
           shift: [0, -5]
           rotate: 180
@@ -144,9 +145,9 @@ pcbs:
       battery_connector: 
         what: jstph
         where: 
-          ref: [matrix_inner_home, mirror_matrix_inner_home]
-          shift: [32, -28]
-          rotate: 111
+          ref.aggregate.parts: [matrix_inner_home, mirror_matrix_inner_home]
+          shift: [-6, -37]
+          rotate: 90
         params: 
           pos: pos
           neg: GND
@@ -155,7 +156,7 @@ pcbs:
         where: 
           ref.aggregate.parts: [thumb_reachy_thumbrow, mirror_thumb_reachy_thumbrow]
           shift: [0, -14.5]
-          rotate: 180
+          rotate: -180
         params: 
           from: pos
           to: RAW
