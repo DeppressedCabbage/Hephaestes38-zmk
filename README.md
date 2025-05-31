@@ -3,11 +3,13 @@
 Hephaestes38 is a custom, 38 key, low profile, split unibody keyboard. I Intended it to be used with the Hands Down promethium layout, but that's really up to you! ZMK studio has also been integrated, so it's super easy to make any changes you wish. I only use 3 Layers, but the firmware has a total of 5 for you to add any you like. 
 
 ****
-![IMG_1503](https://github.com/user-attachments/assets/a0878bdd-1bca-4a44-87b5-c0b7dde1b5f4)
+![IMG_1576](https://github.com/user-attachments/assets/c206e0e9-e8e3-4f4f-a6f7-3c6df7ae1382)
+
+
 
 It's programmed on a Nice!Nano for wireless functonality, as well as compatibility for a Nice!View E-paper display to keep track of layers, battery status, or whatever else suits your fancy.
 
-![IMG_E1513](https://github.com/user-attachments/assets/e5aac1f3-6931-4fdc-aee3-845350cf0e9f)
+![IMG_1578](https://github.com/user-attachments/assets/74d96422-0e8a-420f-8805-253d540ec945)
 
 ***
 ### PCB's
