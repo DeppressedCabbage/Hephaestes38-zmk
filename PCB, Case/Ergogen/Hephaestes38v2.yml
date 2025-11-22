@@ -9,31 +9,31 @@ points:
       columns:
         outer:
           rows.top.skip: true
-          key.column_net: P20
+          key.column_net: P21
         pinky.key.stagger: -0.3cx
         pinky.key.splay: -3
-        pinky.key.column_net: P19
+        pinky.key.column_net: P20
         ring.key.stagger: 0.6cx
         ring.key.splay: -5
-        ring.key.column_net: P18
+        ring.key.column_net: P19
         middle.key.stagger: 0.25cx
         middle.key.splay: -3
-        middle.key.column_net: P15
+        middle.key.column_net: P18
         index.key.stagger: -0.25cx
-        index.key.column_net: P14
+        index.key.column_net: P15
         inner.key.stagger: -0.15cx
         inner.key.splay: -3
-        inner.key.column_net: P16
+        inner.key.column_net: P0
       rows:
         bottom:
           padding: cy
-          row_net: P8
-          mirror.row_net: P21
+          row_net: P16
+          mirror.row_net: P8
         home.padding: cy
-        home.row_net: P7
-        home.mirror.row_net: P5
+        home.row_net: P14
+        home.mirror.row_net: P7
         top.padding: cy
-        top.row_net: P6
+        top.row_net: P21x
         top.mirror.row_net: P4
     thumb:
       anchor:
@@ -42,14 +42,14 @@ points:
         rotate: -10
       columns:
         tucky:
-          key.column_net: P14
+          key.column_net: P15
         reachy:
           key.spread: U
           key.splay: -15
           key.origin: [-0.5U, -0.5U]
-          key.column_net: P16
-      rows.thumbrow.row_net: P9
-      rows.thumbrow.mirror.row_net: P10
+          key.column_net: P0
+      rows.thumbrow.row_net: P10
+      rows.thumbrow.mirror.row_net: P9
 points.zones.matrix.mirror:
   ref: matrix_inner_home
   shift: [1.4U, 0.5U]
@@ -128,6 +128,9 @@ pcbs:
         what: ceoloide/diode_tht_sod123
         where: true
         params: 
+          side: B
+          reversible: true
+          include_traces_vias: true
           from: "{{row_net}}"
           to: "{{colrow}}"
           include_tht: false
@@ -191,8 +194,8 @@ pcbs:
       HoleThumbLeft:
         what: ceoloide/mounting_hole_npth
         where: 
-          - ref: thumb_tucky_thumbrow
-            shift: [0.6U, 0.37U]
+          - ref: thumb_reachy_thumbrow
+            shift: [0.8U, -0.25U]
       HoleFarRight:
         what: ceoloide/mounting_hole_npth
         where:
@@ -216,8 +219,8 @@ pcbs:
       HoleThumbRight:
         what: ceoloide/mounting_hole_npth
         where: 
-          - ref: mirror_thumb_tucky_thumbrow
-            shift: [0.6U, 0.37U]
+          - ref: mirror_thumb_reachy_thumbrow
+            shift: [0.8U, -0.25U]
       mcu:
         what: ceoloide/mcu_nice_nano
         where:
