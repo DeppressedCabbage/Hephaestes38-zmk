@@ -48,10 +48,11 @@ This is the first version of they keyboard, and I forgot to add mounting holes t
 ### To Do List
 
 - ✔Create Case
-- Add via's to the pcb to facilitate Case attachement
-- Refine Pcb to allow for diode attachment on both sides, along with turning Diode Footprint around
+- ✔Add via's to the pcb to facilitate Case attachement
+- ✔Refine Pcb to allow for diode attachment on both sides, along with turning Diode Footprint around
 - Lower profile?
 - ✔ Add zmk Studio support
+- Order V2 pcb's to confirm fitment
 
 ***
 ### Credits
