@@ -1,6 +1,6 @@
 <h1 align="left">Hephaestes38</h1>
 
-Hephaestes38 is a custom, 38 key, low profile, split unibody keyboard. I Intended it to be used with the Hands Down promethium layout, but that's really up to you! ZMK studio has also been integrated, so it's super easy to make any changes you wish. I only use 3 Layers, but the firmware has a total of 5 for you to add any you like. 
+Hephaestes38 is a custom, 38 key, low profile, split unibody keyboard. I Intended it to be used with the Hands Down promethium layout, but that's really up to you! ZMK studio has also been integrated, so it's super easy to make any changes you wish. See the [writeup](https://github.com/DeppressedCabbage/Hephaestes38-zmk/blob/main/Keymap.md) on Hands Down Promethium and my specific combos/layers. I only use 3 Layers, but the firmware has a total of 5 for you to add any you like. 
 
 ****
 ![IMG_1576](https://github.com/user-attachments/assets/c206e0e9-e8e3-4f4f-a6f7-3c6df7ae1382)
