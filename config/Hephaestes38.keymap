@@ -1,0 +1,104 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/ext_power.h>
+#include <dt-bindings/zmk/bt.h>
+
+&sk {
+    release-after-ms = <500>;
+    quick-release;
+};
+
+/{
+    combos {
+        compatible = "zmk,combos";
+        combo_Nav_Layer {
+            timeout-ms = <50>;
+            key-positions = <13 34>;
+            bindings = <&tog 1>;
+        };
+        combo_NUM_Layer {
+            timeout-ms = <50>;
+            key-positions = <18 37>;
+            bindings = <&tog 2>;
+        };
+        combo_Layer3 {
+            timeout-ms = <50>;
+            key-positions = <4 5>;
+            bindings =  <&tog 3>;
+        };
+        combo_layer4 {
+            timeout-ms = <50>;
+            key-positions = <15 16>;
+            bindings = <&tog 4>;
+        };
+        combo_layer5 {
+            timeout-ms = <50>;
+            key-positions = <27 28>;
+            bindings = <&tog 5>;
+        }; 
+        combo_ESC {
+            timeout-ms = <50>;
+            key-positions = <13 14>;
+            bindings = <&kp ESC>;
+        };
+        combo_Enter {
+            timeout-ms = <50>;
+            key-positions = <17 18 19>;
+            bindings = <&kp ENTER>;
+        };
+        combo_Windows {
+            timeout-ms = <50>;
+            key-positions = <12 14>;
+            bindings = <&kp LEFT_GUI>;
+        };
+        combo_Delete {
+            timeout-ms = <50>;
+            key-positions = <2 3>;
+            bindings = <&kp DEL>;
+        };
+    };
+
+    keymap {
+        compatible = "zmk,keymap";
+        default_layer { //Default
+            display-name = "Base";
+            bindings = <
+                            &kp F   &kp P   &kp D   &kp L   &kp X       &kp BSPC    &kp U           &kp O           &kp Y       &kp B
+                &kp TAB     &kp S   &kp N   &kp T   &kp H   &kp K       &kp COMMA   &kp A           &kp E           &kp I       &kp C   &kp Q
+                &kp LCTRL   &kp V   &kp W   &kp G   &kp M   &kp J       &kp MINUS   &mt EXCL DOT    &kp SQT         &kp SEMI    &kp Z   &kp LALT
+                                                    &kp R  &caps_word    &sk LSHIFT  &kp SPACE
+            >;
+        };
+
+        Nav_Layer { //Nav/BLE
+            display-name = "Nav";
+            bindings = <
+                            &ext_power EP_ON    &bt BT_SEL 0   &bt BT_SEL 3     &none   &none       &kp DEL     &kp PG_UP       &kp UP          &kp PG_DN   &none
+                &trans      &ext_power EP_OFF   &bt BT_SEL 1   &bt BT_SEL 4     &none   &none       &none       &kp LEFT        &kp DOWN        &kp RIGHT   &none   &none
+                &trans      &ext_power EP_TOG   &bt BT_SEL 2   &studio_unlock   &none   &none       &none       &none           &none           &none       &none   &trans
+                                                                    &kp LSHIFT  &none       &to 0       &none
+            >;
+        };
+
+        Number_Layer { //Num/Sym
+            display-name = "Num/Sym";
+            bindings = <
+                            &none       &kp AT_SIGN &kp LBKT    &kp RBKT    &kp CARET   &kp BSPC        &kp N7      &kp N8      &kp N9  &kp EQUAL
+                &trans      &kp EXCL    &kp QMARK   &kp LPAR    &kp RPAR    &kp PIPE    &kp STAR        &kp N4      &kp N5      &kp N6  &kp MINUS   &kp ENTER
+                &trans      &kp LT      &kp GT      &kp LBRC    &kp RBRC    &kp TILDE   &kp N0          &kp N1      &kp N2      &kp N3  &kp FSLH    &trans
+                                                                &kp LSHIFT  &kp DOT     &to 0           &trans
+            >;
+        }; 
+
+        extra1 {
+            status = "reserved";
+        };
+
+        extra2 {
+            status = "reserved";
+        };
+        extra3 {
+            status = "reserved";
+        };
+    };
+};
