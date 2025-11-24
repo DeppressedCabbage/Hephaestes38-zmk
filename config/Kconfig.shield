@@ -1,3 +1,0 @@
-# No whitespace after the comma or in your keyboard name!
-config SHIELD_HEPHAESTES38
-    def_bool $(shields_list_contains,Hephaestes38)
