@@ -19,7 +19,7 @@
 #
 ---
 include: 
-  - board: nice_nano
+  - board: nice_nano_v2
     shield: Hephaestes38 nice_view_gem
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y    
