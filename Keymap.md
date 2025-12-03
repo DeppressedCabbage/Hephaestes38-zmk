@@ -14,6 +14,9 @@ A "SYNTH" and "AEI" home row help to make the in:out rolling ratio over 2:1, the
 
 I had to modify my layout slightly to work with the 38 keys on my keyboard, so it differs slightly from the "canonical" Layout pictured above. You can see the changes I made below. On a high level I moved the backspace key from the thumb cluster and replaced it with a oneshot shift key. Enter was also moved to a combo and replaced with the left alt, and the "Z" key was moved in place of the "/". TAB and Left CTR have been moved down in place of the "Backslash" key. 
 
+<img width="1415" height="637" alt="image" src="https://github.com/user-attachments/assets/0eda7f88-bf70-4292-bc56-668e2144e39f" />
+
+
 
 ### Layers and combos
 A small keyboard is great, but if you only have alpha keys, it tends to not work the best for day to day productivity. To fix this, I use a Number and Symbol layer, as well as a dedicated Navigation layer. You can see them pictured below. To get to and from the layers, I use combos that utilize both the home row and the thumb. I found that this combination of fingers allows for very few false activations while still easily being activated when on purpose. To get to the Number Layer, the keys "E"and "Space" are used. "T" and "R" allow access to the navigation layer, and is the same as the number layer, just mirrored.
