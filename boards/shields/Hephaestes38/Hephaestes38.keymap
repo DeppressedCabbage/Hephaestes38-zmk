@@ -91,7 +91,7 @@
         }; 
 
         QWERTY_Layer {
-            dissplay-name = "QWERTY";
+            display-name = "QWERTY";
             bindings = <
                             &kp Q       &kp W       &kp E       &kp R       &kp T       &kp BSPC        &kp Y       &kp O         &kp U     &kp I
                 &trans      &kp A       &kp S       &kp D       &kp F       &kp G       &kp COMMA       &kp H       &kp J         &kp K     &kp L      &kp P
