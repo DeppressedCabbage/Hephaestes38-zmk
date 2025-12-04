@@ -90,8 +90,14 @@
             >;
         }; 
 
-        extra1 {
-            status = "reserved";
+        QWERTY_Layer {
+            dissplay-name = "QWERTY";
+            bindings = <
+                            &kp Q       &kp W       &kp E       &kp R       &kp T       &kp BSPC        &kp Y       &kp O         &kp U     &kp I
+                &trans      &kp A       &kp S       &kp D       &kp F       &kp G       &kp Comma       &kp H       &kp J         &kp K     &kp L      &kp P
+                &trans      &kp Z       &kp X       &kp C       &kp V       &kp N       &kp MINUS       &kp M       &kp EXCL DOT  &kp FSLH  &kp DEL    &trans
+                                                                &kp LSHIFT  &kp DOT     &sk LSHIFT      &trans
+            >;
         };
 
         extra2 {
