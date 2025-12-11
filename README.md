@@ -13,7 +13,7 @@ It's programmed on a Nice!Nano for wireless functonality, as well as compatibili
 
 ***
 ### PCB's
-All files to make your own pcb's can be found in the pcb's and cases folder. The Hepheaestes38_PCB-Gerbers.zip can be uploaded into any pcb manufacturer to get them made, and all of the kicad files are available if you want to make any edits. 
+All files to make your own pcb's can be found in the pcb's and cases folder. The Hepheaestes38_PCB-Gerbers.zip can be uploaded into any pcb manufacturer to get them made, and all of the kicad files are available if you want to make any edits. If you are looking for an assembled PCB, reach out to me at conturakeyboards@gmail.com. A website will be coming soon if you would like to purchase pcb's or fully assembled keyboards. Stay tuned. 
 
 ***
 ### BOM
@@ -43,6 +43,12 @@ This is the first version of they keyboard, and I forgot to add mounting holes t
 ![IMG_1521](https://github.com/user-attachments/assets/27e24dec-88bb-4b1c-8f9c-14c25f3f37de)
 
 ![IMG_1523](https://github.com/user-attachments/assets/7a209966-5b48-4598-9bb6-3a8b863f0747)
+
+### V2 Case
+
+Version 2 of the pcb and case are currently in progress, please follow for updates coming soon. In the meantime, here are some renders for your viewing pleasure. 
+<img width="4096" height="2096" alt="Hepheaestes38v2 Stylized ISO" src="https://github.com/user-attachments/assets/6006058e-cc1d-442e-91e4-e5b1ec489f6e" />
+<img width="4096" height="2096" alt="Hepheaestes38v2 Top down 45" src="https://github.com/user-attachments/assets/734e0533-52f4-456b-9186-9e6e937bd7c4" />
 
 ***
 ### To Do List
