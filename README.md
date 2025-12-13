@@ -34,7 +34,7 @@ Additionally, you'll also need the following
 ***
 ### Firmware
 
-Hepheaestes38 runs ZMK, you can modify and compile you're own firmware by cloning the repo and maiking any edits you like. 
+Hepheaestes38 runs ZMK, you can modify and compile you're own firmware by cloning the repo and making any edits you like. 
 
 *** 
 ### V1 Case
