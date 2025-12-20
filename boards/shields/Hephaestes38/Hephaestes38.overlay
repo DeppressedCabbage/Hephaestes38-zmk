@@ -19,7 +19,7 @@
         compatible = "zmk,kscan-gpio-matrix";
         label = "default_kscan";
         diode-direction = "row2col";
-x
+
         row-gpios = <&pro_micro 6 GPIO_ACTIVE_HIGH>,
                     <&pro_micro 14 GPIO_ACTIVE_HIGH>,
                     <&pro_micro 16 GPIO_ACTIVE_HIGH>,
