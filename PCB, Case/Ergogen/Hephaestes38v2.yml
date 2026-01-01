@@ -124,6 +124,7 @@ pcbs:
           choc_v2_support: false
           from: "{{column_net}}"
           to: "{{colrow}}"
+          hotswap_3dmodel_filename:
       diode: 
         what: ceoloide/diode_tht_sod123
         where: true
