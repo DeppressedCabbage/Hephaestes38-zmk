@@ -20,7 +20,7 @@ All files to make your own pcb's can be found in the pcb's and cases folder. The
 
 Additionally, you'll also need the following
 
-- 38x SMD or Through Hole diodes (1N4148W or 1N4148)
+- 38x SMD diodes (1N4148W)
 - 38x Kailh Choc Hotswap Sockets
 - 38x Kailh Choc V1 Switches
 - 1x Nice!Nano
